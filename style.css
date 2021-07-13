@@ -163,7 +163,7 @@ small>span, .sub-2>span{
 
 textarea{
     outline: none;
-    background-color: black;
+    background-color: transparent;
     color: white;
     padding: 5px 10px;
     
@@ -255,7 +255,7 @@ form>h1{
 .cast-details{
     display: flex;
     align-items: center;
-    background-color: black;
+   
      width: 100%;
      border-radius: 20px;
      box-shadow: 1px 1px 1px gray;
@@ -263,7 +263,9 @@ form>h1{
      overflow: hidden;
 }
 
-
+.piyas{
+    padding: 10px 0;
+}
 
 .cast-details:hover{
 transform: scale(1.1);
@@ -309,4 +311,7 @@ footer{
     color: skyblue;
     font-size: 1.1em;
     
+}
+.cast-img{
+    width: 80%;
 }
