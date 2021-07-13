@@ -1,0 +1,312 @@
+body{
+margin: 0;
+padding: 0;
+background-image: url(images/back2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center top;
+background-attachment: fixed;
+
+
+}
+/* header start */
+header{
+background-color: rgba(0, 0, 0, 0.877);
+width: 100%;
+display: flex;
+justify-content: center;
+font-family: 'Varela Round', sans-serif;
+height: 60px;
+position: fixed;
+    }
+
+header a{
+    text-decoration: none;
+   
+    font-weight: 500;
+    margin-right: 20px;
+   
+}
+nav{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user input{
+   padding: 5px 25px;
+   border-radius: 20px;
+   outline: none;
+
+   border: 1px solid white;
+}
+.user .fas{
+    font-size: 2em;
+    color: white;
+    margin-left: 10px;
+}
+a:hover, .fas:hover, input:hover{
+    color: skyblue;
+}
+
+
+/* main body started */
+
+
+main{
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+    
+    
+    }
+.two-part{
+    display: flex;
+    justify-content:center ;
+    width: 85%;
+    color: white;
+    margin-top: 60px;
+    background-color: rgba(19, 12, 20, 0.89);
+    
+
+}
+
+.two-part>div{
+    border:1px solid rgba(1, 1, 26, 0);
+    
+}
+
+/* main-content */
+
+.side {
+    width: 25%;
+    
+}
+.main-content{
+    width: 75%;
+}
+.image>img{
+    width: 100%;  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.playbar{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-top: -4px;
+    box-shadow: 1px 1px 1px rgb(70, 41, 41);
+
+}
+.option, .quality{
+ background-color: rgb(26, 14, 14);
+    width: 16.5%;
+    margin-right: 0.5%;
+    text-align: center;
+      height: 100%;
+      display: flex;
+      align-items: center;
+}
+.watch{
+    background-color: rgb(26, 14, 14);
+   
+    width: 66%;
+    height: 100%;
+    display: flex;
+      align-items: center;
+}
+.movi-discription{
+    display: flex;
+    padding: 25px;
+}
+.discription{
+    margin-left: 25px;
+}
+
+.title-pic img{
+    width: 160px;
+}
+h1, h4, small{font-weight: 400;
+margin-top: 0px;
+margin-bottom: 0;
+}
+small>span, .sub-2>span{
+    background-color: gray;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.sub-3>small>span:hover, .sub-2>span:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.fa-star{
+    font-size: 20px;
+}
+.sub-2:hover i{
+    color: greenyellow;
+}
+
+textarea{
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    
+}
+.comment-div{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0;
+    
+}
+
+
+/* side bar */
+.side{
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+button{
+    background-color: tomato;
+    padding: 2px 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid tomato;
+  
+    transition: transform 0.1s linear;
+    margin: 10px 5px;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: pink;
+    color: blue;
+      cursor: pointer;
+}
+
+form>input{
+    font-size: 1em;
+    margin: 5px 0;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: none;
+    color: black;
+}
+form>h1{
+    margin: 10px 0;
+  
+}
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+
+}
+
+
+
+.calender>div{
+    background-color: teal;
+    text-align: center;
+    border-radius: 10px;
+    margin: 4px 0;
+
+}
+.calender>div:hover{
+    transform: scale(1.1);
+    background-color: blue;
+      cursor: pointer;
+}
+.peragrap{
+    padding: 30px;
+}
+
+/* cast */
+
+.cast-photo{
+    width: 80px;
+}
+.cast-details{
+    display: flex;
+    align-items: center;
+    background-color: black;
+     width: 100%;
+     border-radius: 20px;
+     box-shadow: 1px 1px 1px gray;
+     transition: transform 0.1s linear;
+     overflow: hidden;
+}
+
+
+
+.cast-details:hover{
+transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+
+.cast-discription>h4, .cast-discription>small{
+    margin: 4px 10px;
+    color: white;
+    
+   
+}
+.cast{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+.all{
+    padding: 30px;
+}
+.sagor{
+    width: 31%;
+}
+
+/* youtube video iframe */
+
+
+.more-videos{
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.1s linear;
+}
+
+.more-videos:hover{
+    transform: scale(1.05);
+}
+footer{
+    text-align: center;
+    color: skyblue;
+    font-size: 1.1em;
+    
+}
